@@ -1,0 +1,21 @@
+{
+  "name": "bobflow-enterprise",
+  "version": "2.0.0",
+  "description": "BobFlow Enterprise — Autonomous SDLC Governance Platform powered by IBM Bob 2.0",
+  "main": "server.js",
+  "bin": {
+    "bobflow": "./bin/bobflow.js"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node src/__tests__/account_service.test.js",
+    "scan": "node bin/bobflow.js scan src",
+    "serve": "node bin/bobflow.js serve",
+    "governance": "node bin/bobflow.js governance"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["sdlc", "governance", "ibm", "bob", "compliance", "watsonx"],
+  "license": "MIT"
+}

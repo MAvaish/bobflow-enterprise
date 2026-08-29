@@ -1,0 +1,5 @@
+ENTERPRISE SYSTEM REQUIREMENTS & BUSINESS LOGIC:
+1. Account validation requires ACTIVE status and non-negative balance index.
+2. Transactions exceeding $10,000 require Tier-2 Manager approval flag.
+3. System must enforce idempotent token verification on all mutation endpoints.
+4. Deprecation Notice: Fixed-width batch reconciliation logic (v1) is obsolete and must be migrated to REST event streaming.
