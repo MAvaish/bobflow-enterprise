@@ -74,3 +74,16 @@ node server.js
 ---
 ## 📜 License
 Apache-2.0 © 2026 Mohd Avaish
+
+---
+## 📸 IBM Bob 2.0 Task Session Summary & Development Screenshots
+The following artifacts and session logs verify the autonomous execution of IBM Bob 2.0 across Plan Mode, Subagent Execution, and Verification:
+| Stage / Artifact | Description | Verification Evidence |
+|---|---|---|
+| **1. Ingestion & Plan Mode** | Ingestion of `legacy_specs.txt` & AST Gap Mapping | ![Ingestion](docs/screenshots/Screenshot%202026-08-29%20094857.jpg) |
+| **2. Code Modernization Subagent** | Autonomous Refactoring of `src/account_service.js` | ![Refactoring](docs/screenshots/Screenshot%202026-08-29%20100157.jpg) |
+| **3. Quality Engineer Subagent** | 15/15 Edge-Case Test Generation & Terminal Execution | ![Test Execution](docs/screenshots/Screenshot%202026-08-29%20101033.jpg) |
+| **4. Architecture & Onboarding** | Interactive Mermaid.js Flowchart & Sequence Generation | ![Onboarding Docs](docs/screenshots/Screenshot%202026-08-29%20101806.jpg) |
+| **5. Live Dashboard & AST Sandbox** | Real-time WebSocket Telemetry & Code Scanner | ![Dashboard](docs/screenshots/Screenshot%202026-08-29%20150334.jpg) |
+| **6. watsonx Granite Governance** | NIST SP 800-53 / OWASP Audit & SHA-256 Seal | ![watsonx Audit](docs/screenshots/Screenshot%202026-08-29%20150629.jpg) |
+> Complete chronological terminal stdout and session benchmarks are documented in [`EXECUTION_SUMMARY.md`](./EXECUTION_SUMMARY.md) and [`MODERNIZATION_AUDIT.md`](./MODERNIZATION_AUDIT.md).
